@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #666 ;
+    background-color:#ebebeb
+}
+.main-header{
+    padding: 20px;
+    background-color: #EAC926
+}
+main{
+    width: 90%;
+    background-color:#ebebeb ;
+    
+}
+.infoProducto{
+    padding: 15px;
+    background-color: white;
+    max-height: 100vh;
+    max-width: 22vw;
+    border-top: solid 1px #ebebeb;
+}
+.infoProducto #descuentos {
+width: 70%;
+}
+.infoProducto #precios{
+    width: 30%;
+}
+.producto{
+    position: relative;
+    margin: 10px;
+    justify-content: center;
+}
+.producto .fa-shipping-fast{
+    position: absolute;
+    left: 80%;
+}
+.main-navBar ul{
+    font-size: 12px ;
+    list-style: none ;
+    margin: 0px;
+    padding: 0px;
+}
+.main-navBar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0px;
+    font-size: 17px;
+}
+.txt-header {
+    text-align: center;
+    margin: auto;
+    font-weight: 400;
+}
+.Titulares {
+    font-size: 24px;
+}
+.descripciones {
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+}
+#precios {
+    font-size: 18px;
+}
+#descuentos{
+    font-size: 16px;
+    color: green;
+}
+
+#logo{
+    width: 200px ;
+}
+
+.menuHamburg{
+    text-align: center;
+    margin: auto;
+    color: white;
+    background-color: #03264c;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.producto{
+    background-color: white;
+    max-width: 18vw;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.fa-shipping-fast{
+    color: green;
+}
+.fotoproducto{
+    max-height: 30vh;
+    width: 100%;
+}
+#homebanner{
+    width: 100vw;
+    max-height: 25%;
+    margin: auto;
+}
+footer{
+    background-color: white;
+}
+.ultimaVisita {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.ofertas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (min-width: 361px){
+    .infoProducto {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+    #nombreProducto{
+        display: none;
+    }
+    .menuHamburg{
+        display: none;
+    }
+
+.main-header-topbar{
+    display: flex;
+    justify-content: space-between;
+}
+.txt-header{
+    max-width: 350px;
+    text-align: right;
+}
+.main-navBar{
+    display: flex;
+    justify-content: space-between;
+}
+.main-navBar ul {
+    display: flex;
+
+}
+.main-navBar li {
+    margin: 0 5px;
+    
+}
+}
+@media(max-width:420px){
+    .main-navBar{
+        display: none;
+    }
+    .infoProducto #nombreProducto{
+        display: hidden ;
+    }
+}
+@media(min-width: 769px){
+#logo{
+    width: 250px;
+}
+.main-header-topbar .main-navBar{
+    max-width: 1200px;
+    margin: auto;
+}
+.main-header-topbar{
+    align-items: center;
+
+}
+.txt-header{
+    max-width: none;
+    font-size: 22px;
+    font-weight: 400 ;
+    margin: 0px;
+}
+.main-navBar li {
+    margin: 0 10px;
+}
+.main-navBar a{
+    font-size: 19px;
+}
+.main-navBar{
+    margin-top: 40px;
+}
+.buscador{
+    height: 40px;
+    width: 25vw;
+}
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    }
