@@ -6,6 +6,9 @@ body{
     color: #666 ;
     background-color:#ebebeb
 }
+header{
+    width: 100vw;
+}
 .main-header{
     padding: 20px;
     background-color: #EAC926
@@ -13,6 +16,7 @@ body{
 main{
     width: 90%;
     background-color:#ebebeb ;
+    
     
 }
 .infoProducto{
@@ -68,7 +72,7 @@ width: 70%;
 }
 #descuentos{
     font-size: 16px;
-    color: green;
+    color: #39b54a;
 }
 
 #logo{
@@ -91,8 +95,10 @@ width: 70%;
     max-width: 18vw;
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
+
 .fa-shipping-fast{
-    color: green;
+    color: #39b54a;
+    
 }
 .fotoproducto{
     max-height: 30vh;
@@ -105,6 +111,19 @@ width: 70%;
 }
 footer{
     background-color: white;
+    width: 100vw;
+}
+.fa-credit-card{
+    color: #0c63e7;
+    font-size: 2em;
+}
+.fa-gift{
+    color: #0c63e7;
+    font-size: 2em;
+}
+.fa-user-shield{
+    color:#0c63e7 ;
+    font-size: 2em;
 }
 .ultimaVisita {
     display: flex;
@@ -121,7 +140,7 @@ footer{
     align-items: center;
 }
 @media (min-width: 361px){
-    .infoProducto {
+    .producto {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
     #nombreProducto{
@@ -137,6 +156,7 @@ footer{
 }
 .txt-header{
     max-width: 350px;
+    font-size: 25%;
     text-align: right;
 }
 .main-navBar{
@@ -152,12 +172,21 @@ footer{
     
 }
 }
-@media(max-width:420px){
+
+
+/*En el caso de mobile la descripcion del producto no se visualizara\\
+Los productos no tendran Box Shadow
+*/
+
+@media(max-width:360px){
     .main-navBar{
         display: none;
     }
     .infoProducto #nombreProducto{
-        display: hidden ;
+        display: none ;
+    }
+    .producto{
+        box-shadow: none;
     }
 }
 @media(min-width: 769px){
@@ -191,18 +220,8 @@ footer{
     height: 40px;
     width: 25vw;
 }
+#nombreProducto{
+    display: block;
+}
 }
 
-main section article i{
-    display: block;
-    font-size: 16px;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #39b54a;
-    background-color: #FFF;
-    border-radius: 50%;
-    position: absolute;
-    right: 20px;
-    top: -15px;
-    }
