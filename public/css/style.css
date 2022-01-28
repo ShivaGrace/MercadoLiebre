@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -10,7 +12,7 @@ header{
     width: 100vw;
 }
 .main-header{
-    padding: 20px;
+    padding: 10px;
     background-color: #EAC926
 }
 main{
@@ -28,6 +30,9 @@ main{
 }
 .infoProducto #descuentos {
 width: 70%;
+position: absolute;
+right: 7px;
+top: 342px;
 }
 .infoProducto #precios{
     width: 30%;
@@ -37,10 +42,19 @@ width: 70%;
     margin: 10px;
     justify-content: center;
 }
-.producto .fa-shipping-fast{
-    position: absolute;
-    left: 80%;
-}
+.producto .infoProducto i{
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        }
+
 .main-navBar ul{
     font-size: 12px ;
     list-style: none ;
@@ -76,7 +90,7 @@ width: 70%;
 }
 
 #logo{
-    width: 200px ;
+   max-width: 200px;
 }
 
 .menuHamburg{
@@ -156,7 +170,7 @@ footer{
 }
 .txt-header{
     max-width: 350px;
-    font-size: 25%;
+    font-size: 20px;
     text-align: right;
 }
 .main-navBar{
@@ -188,6 +202,47 @@ Los productos no tendran Box Shadow
     .producto{
         box-shadow: none;
     }
+    .txt-header{
+        font-size: 15px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    #searchBar{
+       margin-left: 150px;
+       margin-top: 10px;
+        width: 50vw;
+        display: flex;
+        position: absolute;
+        left: 40px;
+        
+    }
+    .buscador{
+        width: 40vw;
+        height: 4vh;
+        
+    }
+    .fa-search{
+        font-size: 10px;
+    }
+    .menuHamburg{
+        margin-top: 20px;
+        height: 7vh;
+        width: 15vw;
+        text-align: center;
+    }
+    .ubiclogo{
+        width: 50vw;
+    }
+    #logo{
+        width: 45vw;
+        justify-content: flex-start;
+        margin-top: 5px;
+    }
+    .main-header-topbar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 @media(min-width: 769px){
 #logo{
@@ -203,9 +258,9 @@ Los productos no tendran Box Shadow
 }
 .txt-header{
     max-width: none;
-    font-size: 22px;
     font-weight: 400 ;
     margin: 0px;
+    font-size: 23px;
 }
 .main-navBar li {
     margin: 0 10px;
@@ -219,6 +274,12 @@ Los productos no tendran Box Shadow
 .buscador{
     height: 40px;
     width: 25vw;
+}
+.fa-search{
+    font-size: 25px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    margin-bottom: 3px;
 }
 #nombreProducto{
     display: block;
