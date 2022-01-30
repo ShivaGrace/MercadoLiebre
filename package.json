@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "scripts": {"start": "nodemon ./app.js"} ,
+  "scripts": {
+    "start": "nodemon ./app.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
   }
 }
