@@ -312,9 +312,7 @@ Los productos no tendran Box Shadow. El buscador debera ubicarse al lado del log
 .form-input{
     width: 50vw;
 }
-.pageData i:hover{
-    color: #39b54a;
-}
+
 }
 
 /*Version desktop*/
