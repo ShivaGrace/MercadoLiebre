@@ -4,14 +4,17 @@ const path = require('path');
 const mainRoutes = require('./src/routes/mainRouter');
 const productRoutes = require('./src/routes/productRouter'); 
 const userRoutes = require('./src/routes/usersRouter');
-/*const mainController = require('./src/controllers/mainController');
-const productController = require('./src/controllers/productController'); 
-const usersController = require('./src/controllers/usersController'); */
+const methodOverride = require('method-override'); 
 
 
 
 app.set("view engine", "ejs"); 
 app.use(express.static(path.join(__dirname , './public'))) ; 
+
+app.use(methodOverride('_method')); 
+app.use(express.json()); 
+app.use(express.urlencoded({extended: false})); 
+
 app.use('/' , mainRoutes);
 app.use('/products' , productRoutes);
 app.use('/users' , userRoutes); 
