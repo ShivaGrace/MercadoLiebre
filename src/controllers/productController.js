@@ -40,8 +40,8 @@ const productController = {
         }
         res.render('productDetail', {productoEncontrado: productoEncontrado});
     }, 
-    listProducts: (req,res) => {
-        res.render('productList')
+    listProducts: (req ,res) => {
+        res.render('productList', {allProducts: allProducts});
     }
 };
  
