@@ -1,5 +1,5 @@
 
-let userController = {
+let usersController = {
 login: (req, res)=> {
     res.render('login')
 },
@@ -8,4 +8,4 @@ register: (req, res)=> {
 } 
 }; 
 
-module.exports = userController ;
+module.exports = usersController ;

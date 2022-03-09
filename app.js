@@ -4,9 +4,9 @@ const path = require('path');
 const mainRoutes = require('./src/routes/mainRouter');
 const productRoutes = require('./src/routes/productRouter'); 
 const userRoutes = require('./src/routes/usersRouter');
-const mainController = require('./src/controllers/mainController');
+/*const mainController = require('./src/controllers/mainController');
 const productController = require('./src/controllers/productController'); 
-const usersController = require('./src/controllers/usersController'); 
+const usersController = require('./src/controllers/usersController'); */
 
 
 
