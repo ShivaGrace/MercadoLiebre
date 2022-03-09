@@ -3,7 +3,7 @@
     "description": "Producto con 5 años de uso, funciona perfectamente nunca tuvo ningun arreglo",
     "precio": 15000 ,
     "descuento": 10 ,
-    "img": "../public/Imagenes/img-cafetera-moulinex.jpg"
+    "img": "img-cafetera-moulinex.jpg"
 
 }, 
 {
@@ -12,7 +12,7 @@
     "description": "Nuevo, sin uso", 
     "precio": 50000 ,
     "descuento": 15 ,
-    "img": "../public/Imagenes/img-tv-samsung-smart.jpg"
+    "img": "img-tv-samsung-smart.jpg"
 }, 
 {
     "id": 3, 
@@ -20,7 +20,7 @@
     "description": "Usado, con bateria al 80%. Detalle en la parte trasera del dispositivo", 
     "precio": 35000 , 
     "descuento": 5 ,
-    "img": "../public/Imagenes/img-samsung-galaxy-s10.jpg"
+    "img": "img-samsung-galaxy-s10.jpg"
 
 }
 ]

@@ -15,14 +15,15 @@
     <%- include('partials/header') %> 
 
 <main>
-    <div class="producto">
-        <img class="fotoproducto" src = "Imagenes/img-cafetera-moulinex.jpg" alt= "Cafetera Moulinex">
+    <div class="producto"> 
+        <img class="fotoproducto" src = "Imagenes/<%= productoEncontrado.img %>  " >
         <div class="infoProducto">  
         <i class="fas fa-shipping-fast"></i>
-            <p id = "precios"> $6.770 </p>
-            <p id= "descuentos"> 40% OFF </p>
+            <p id = "precios"> $<%= productoEncontrado.precio %>  </p>
+            <p id= "descuentos"> <%= productoEncontrado.descuento  %> OFF </p>
             <br>
-            <p id="nombreProducto"><b> Cafetera Moulinex </b></p>
+            <p id="nombreProducto"><b> <%= productoEncontrado.name %>  </b></p>
+            <p id="productDescrption"> <%= productoEncontrado.description %> </p>
     </div>
         </div>
     
